@@ -32,8 +32,9 @@ Select ONE Additional Feature to Add
       border: 2px solid rgb(210, 63, 0);
       border-collapse: collapse;
       background-color: #ffc85bbd;
-      margin-left: auto;
-      margin-right: auto;
+      float: left;
+      margin-right: 20px;
+      
     }
     td{
       text-align: center;
@@ -55,8 +56,9 @@ Select ONE Additional Feature to Add
   #cookies-image {
     border-radius: 30px;
     border: 3px dashed rgb(226, 60, 0);
-    float: left;
-    margin: 10px;
+    rotate: 90deg;
+    margin-left: 300px;
+
   }
 
   .instructions {
@@ -68,6 +70,7 @@ Select ONE Additional Feature to Add
     width: fit-content;
     text-align: center;
     border: 3px dashed rgb(210, 63, 0);
+   
   }
 
   h1{
@@ -135,9 +138,19 @@ Select ONE Additional Feature to Add
     padding-left: 25px;
     margin: auto;
     width: fit-content;
-    text-align: center;
     border: 3px dashed rgb(210, 63, 0);
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+    
   }
+
+  .cookies-table-instructions{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
 
   </style>
 </head>
@@ -163,10 +176,10 @@ Select ONE Additional Feature to Add
     <li>Yeild: 18 cookies</li>
   </ul>
   </p>
+ 
+  <img id="cookies-image" src="https://sallysbakingaddiction.com/wp-content/uploads/2013/09/pumpkin-chocolate-chip-cookies-on-plate-1024x1536.jpg" width="200" >
   
-  <img id="pumpkin-png" src="https://pngimg.com/d/pumpkin_PNG86656.png" width="200px">
-  <img id="pumpkin-png2" src="https://pngimg.com/d/pumpkin_PNG86656.png" width="200px">
-
+ <div class="cookies-table-instructions">
   <table>
     <thead>
       <tr>
@@ -227,11 +240,6 @@ Select ONE Additional Feature to Add
 
     </tbody>
   </table>
-
-  <h3>Instructions:</h3>
-
-  
-     <img id="cookies-image" src="https://sallysbakingaddiction.com/wp-content/uploads/2013/09/pumpkin-chocolate-chip-cookies-on-plate-1024x1536.jpg" width="200" >
     
       <p class="instructions">
       <strong>Step 1:</strong> Whisk the melted butter, brown sugar, and granulated sugar together in a medium bowl until no brown sugar lumps remain. Whisk in the vanilla and blotted pumpkin until smooth. Set aside. <br>
@@ -251,8 +259,10 @@ Select ONE Additional Feature to Add
       <br>
       <strong>Step 8:</strong> Cookies stay fresh covered at room temperature for up to 1 week. <br>
       </p>
+      
+ </div>  
    
- 
+
 
   <h3>Notes:</h3>
   <p>
@@ -264,6 +274,7 @@ Select ONE Additional Feature to Add
       <li><strong>Bigger Batch:</strong> Cookie recipe can easily be doubled by doubling each ingredient. Chill the cookie dough for 45 minutes.</li>
     </ol>
   </p>
+
 
   <p><em>Source: <a href="https://sallysbakingaddiction.com/pumpkin-chocolate-chip-cookies/">Sally's Baking Addiction Pumpkin pumpkin-chocolate-chip-cookies</a></em></p>
 
